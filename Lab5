@@ -1,0 +1,7 @@
+n = int(input("Massivin ölçüsü: "))
+C = list(map(int, input("Massivin elementləri: ").split()))
+h= 1
+for i in range(1, n, 2): 
+    h *= C[i]
+
+print("Tək indeksli elementlərin hasili:", h)
